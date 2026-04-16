@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal">
+    <title>Mi Portafolio Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Vinculacion de fuente externa de css -->
+    <script src="https://kit.fontawesome.com/748620dc2f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Jhon <span>Lopera</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+              <!-- Enlace externo al archivo html mascotas -->
+                <li><a href="mascotas.html">Mis mascotas</a></li>  
+            </ul>
+        </nav>
+    </header>
+    <!-- Contenedor de contenido principal del portafolio -->
+    <main>
+        <!-- Sección sobre mí -->
+        <section id="Sobre mi">
+            <h2>Sobre mí</h2>
+            <p>Soy un desarrollador web apasionado por crear experiencias digitales atractivas y funcionales.<br> Con habilidades en HTML, CSS, JavaScript y frameworks modernos, me esfuerzo por construir sitios web que no solo sean visualmente impresionantes, sino también intuitivos y accesibles para todos los usuarios.</p>
+        </section>
+
+        <!-- Sección de proyectos -->
+         <section id="proyectos">
+            <h2>Proyectos</h2>
+            <ul>
+                <li><a href="https://www.nasa.gov/"></a> - Sitio web de la NASA: Un proyecto que muestra mi capacidad para crear un sitio web informativo y visualmente atractivo utilizando datos en tiempo real de la NASA.</li>
+                <li><a href="https://www.twitch.tv/"></a> - Plataforma de streaming Twitch: Un proyecto que destaca mi habilidad para integrar APIs y crear una experiencia de usuario interact
+            </ul>
+         </section>
+
+            <!-- Sección de contacto -->
+             <section id="contacto">
+                <h2>Contacto</h2>
+                <!-- Etiqueta para capturar datos.. El "action" diría a dónde enviar los datos-->
+                 <form action ="https://formsubmit.co/your-email@gmail.com" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                
+                </form>
+             </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jhon Lopera. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
