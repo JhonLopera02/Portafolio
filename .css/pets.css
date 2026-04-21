@@ -1,0 +1,70 @@
+.proyecto-card a {
+    display: inline-block;       /* Permite aplicar padding y márgenes correctamente */
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--background-color);  
+    color: #ffffff;              
+    text-decoration: none;       
+    border-radius: 5px;          
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Suaviza el cambio de color */
+}
+
+/* Efecto al pasar el mouse por encima (Hover) */
+.proyecto-card a:hover {
+    background-color: #2ecc71;   /* Un tono más claro para el efecto hover */
+    color: #000000;              /* El texto cambia a negro si deseas */
+}
+
+
+
+/* Sección Proyectos con GRID */
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Columnas automáticas */
+    gap: 20px;                                                   /* Espacio entre tarjetas */
+    width: 100%;
+    margin-top: 20px;
+}
+
+.proyecto-card {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+/* Galería de Mascotas combinando Flex y Grid */
+.mascotas-container {
+    display: grid; /* Usamos Grid para el layout principal */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    width: 100%;
+}
+
+.mascota-item {
+    display: flex; /* Flexbox dentro de cada item para centrar contenido */
+    flex-direction: column;
+    align-items: center;
+    background: #222;
+    padding: 0 auto;
+    border-radius: 15px;
+}
+
+.mascota-item img {
+    width: 90%;
+    max-width: 300px; /* Tamaño controlado */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+header nav a[href] {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+   
+}
+header nav a[href]:hover {
+    color: var(--background-color);
+}

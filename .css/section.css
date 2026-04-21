@@ -1,0 +1,33 @@
+/* Estilos de Sección General */
+section {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 40px;
+    background: #000000;
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section img { 
+    margin: 20px 40px;
+    box-shadow: 0 4px 20px rgba(0, 240, 0, 0.5);
+    float: left;
+    width: 720px;
+    height: 500px;
+    justify-content: center;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    transition: all 0.8s ease;
+    img:hover{ 
+    filter: grayscale(1);
+    transition: all 0.9s ease;
+    }
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
