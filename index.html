@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de Jhon Lopera">
+    <title>Mi Portafolio Profesional</title>
+    <link rel="stylesheet" href="./.css/index.css">
+    <script src="https://kit.fontawesome.com/748620dc2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./js/script.js">
+</head>
+<body>
+    <header>
+        <div id="div">
+            <h1>Jhon</h1>
+        <div class=" logo">
+        <img id="logoimg" src="img/logo.png" alt="Logo de Jhon Lopera">
+        <span id="texto">Lopera</span>
+        </div>
+        </div>
+        
+        
+            
+         
+        <nav>
+            <ul>
+                <li><a href="#Sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="mascotas.html" class="nav-special">Mis mascotas</a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Sobre-mi">
+            <h2>Sobre mí</h2>
+            <img src="img/yo.png" alt="Foto de Jhon Lopera">
+            <p>Soy un desarrollador web apasionado por crear experiencias digitales atractivas y funcionales...</p>
+        </section>
+
+        <!-- TASK 3: Sección de proyectos preparada para GRID -->
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyectos-grid">
+                <article class="proyecto-card">
+                    <h3>NASA Website</h3>
+                    <p>Uso de datos en tiempo real de la NASA.</p>
+                    <ul>
+                        <li>Desarrollo de interfaz web</li>
+                        <li>Integración de API de la NASA</li>
+                    </ul>
+                    <a href="https://www.nasa.gov/" target="_blank">Ver Proyecto</a>
+                </article>
+                <article class="proyecto-card">
+                    <h3>Twitch Clone</h3>
+                    <p>Integración de APIs y experiencia interactiva.</p>
+                    <ul>
+                        <li>Desarrollo de interfaz web</li>
+                        <li>Integración de API de Twitch</li>
+                    </ul>
+                    <a href="https://www.twitch.tv/" target="_blank">Ver Proyecto</a>
+                </article>
+                <article class="proyecto-card">
+                    <h3>Tesla Page</h3>
+                    <p>Maquetación de tienda virtual moderna.</p>
+                    <ul>
+                        <li>Desarrollo de interfaz web</li>
+                        <li>Integración de API de Tesla</li>
+                    </ul>
+                    <a href="https://www.tesla.com/" target="_blank">Ver Proyecto</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formsubmit.co/your-email@gmail.com" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jhon Lopera. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/jhonlopera" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/jhonlopera" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/jhonlopera" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

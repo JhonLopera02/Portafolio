@@ -1,0 +1,24 @@
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+}
+
+form input, form textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: none; color: chartreuse;
+    background-color: #fffcfc;
+}
+
+form button {
+    background-color: var(--background-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}

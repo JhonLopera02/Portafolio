@@ -1,0 +1,13 @@
+/* -- Media query para dispositivos moviles(se activa por debajo de los 767px) */
+
+@media (max-width: 767px){
+    .nav-menu {
+        flex-direction: column;
+    }
+    .proyectos-grid {
+        grid-template-columns:1fr; /*uma sola columna */
+    }
+    .galeria-grid {
+        grid-template-columns:repeat(2, 1fr); /* Para dos columnas */
+    }
+}
