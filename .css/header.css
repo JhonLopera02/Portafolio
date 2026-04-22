@@ -2,6 +2,7 @@ header {
     background-color: var(--primary-color);
     color: #ffffff;
     padding: 20px 50px;
+    transition:var(--background-color--)
 
     display: grid; /* 🔥 Activamos Grid */
     
@@ -13,6 +14,7 @@ header {
     justify-items: center; /* Centra horizontalmente */
     gap: 10px;
 }
+
 #div{
     display: flex;
     align-items: center;
