@@ -1,17 +1,15 @@
-header {
+header {  
+    padding: 1.25rem 3.125rem;
     background-color: var(--primary-color);
     color: #ffffff;
     padding: 20px 50px;
-    transition:var(--background-color--)
-
-    display: grid; /* 🔥 Activamos Grid */
-    
+    transition: background-color 0.3s ease; 
+    display: grid; 
     grid-template-areas:
         "logo"
         "titulo"
         "nav";
-
-    justify-items: center; /* Centra horizontalmente */
+    justify-items: center; 
     gap: 10px;
 }
 
@@ -25,7 +23,7 @@ header {
 #div h1 {
     font-size: 1rem;
     color: var(--background-color);
-    /* color: var(--accent-color); */
+    
 }
 .logo {
     position: relative;
@@ -37,9 +35,6 @@ header {
 
 }
 #logoimg {
-    /* width: 100px;
-    height: 80px;
-    object-position: 50% 50%; */
     position: absolute;
     width: 50px;
     top: -30px;
@@ -69,3 +64,5 @@ nav ul li a:hover {
     color: var(--background-color);
                     
 }
+
+

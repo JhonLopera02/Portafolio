@@ -1,6 +1,13 @@
 footer {
-    background: var(--primary-color);
-    color: white;
+
+    padding: 3rem;
+    background: #000;
     text-align: center;
-    padding: 30px;
+    border-top: 1px solid var(--border);
+
+
+.social-icons { display: flex; justify-content: center; gap: 1.5rem; margin-top: 1rem; }
+.social-icons a { color: var(--text-color, #fff);  }
+.social-icons a { font-size: 1.2rem; transition: var(--transition); }
+.social-icons a:hover { color: var(--background); }
 }

@@ -1,3 +1,9 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+}
+
 .proyecto-card a {
     display: inline-block;       /* Permite aplicar padding y márgenes correctamente */
     margin-top: 15px;

@@ -1,3 +1,0 @@
-# Introducción
-
-## aro así es
