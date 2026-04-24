@@ -10,6 +10,9 @@
     --accent-color: #ff1900;
     --background-color: #2cda00;
     --card-bg: #1a1a1a;
+    --transition-speed: 0.3s;
+    --menu-padding: 1rem;
+    --menu-gap: 1rem;
 }
 
 body {
