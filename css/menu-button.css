@@ -1,0 +1,52 @@
+
+#nav-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+#nav-menu ul {
+  display: flex;        
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ocultar botón hamburguesa en PC */
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Celular */
+@media (max-width: 659px) {
+
+  .menu-toggle {
+    display: block;
+    color: var(--background-color);
+  }
+
+  /* Ocultar menú por defecto en móvil */
+  #nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  /* Cuando JS agrega .open, mostrar como columna */
+  #nav-menu.open {          
+    display: flex;
+  }
+
+  #nav-menu ul {
+    display: flex;          
+    flex-direction: column;
+    width: 100%;
+    text-align: end;
+    gap: 0.5rem;
+  }
+}

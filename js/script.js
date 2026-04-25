@@ -1,28 +1,26 @@
-//  Mensaje de bienvenida
-window.addEventListener("DOMContentLoaded", () => {
-  alert("Bienvenido a mi portafolio 🚀");
+// MENÚ RESPONSIVE
+document.getElementById('menu-toggle').addEventListener('click', () => {
+  console.log("test");
 });
 
-//  Cambiar texto
-const botonCambiar = document.getElementById("btn-cambiar");
-const texto = document.getElementById("texto");
+// MENSAJE DE BIENVENIDA
+window.onload = () => {
+    alert("Bienvenido a mi portafolio ");
+};
 
-botonCambiar.addEventListener("click", () => {
-  texto.textContent = "¡El texto ha sido cambiado dinámicamente!";
+// CAMBIAR TEXTO
+document.getElementById('btn-texto').addEventListener('click', () => {
+    document.getElementById('texto-cambiable').textContent =
+        "Ahora estoy aprendiendo JavaScript y creando sitios dinámicos ";
 });
 
-// ✅ Mostrar / ocultar contenido
-const botonToggle = document.getElementById("btn-toggle");
-const extra = document.getElementById("extra");
+// MOSTRAR / OCULTAR PROYECTOS
+document.getElementById('btn-toggle').addEventListener('click', () => {
+    const proyectos = document.getElementById('lista-proyectos');
 
-botonToggle.addEventListener("click", () => {
-  if (extra.style.display === "none") {
-    extra.style.display = "block";
-  } else {
-    extra.style.display = "none";
-  }
-});
-
-botonToggle.addEventListener("click", () => {
-  extra.classList.toggle("oculto");
+    if (proyectos.style.display === "none") {
+        proyectos.style.display = "grid";
+    } else {
+        proyectos.style.display = "none";
+    }
 });
